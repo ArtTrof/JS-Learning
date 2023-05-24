@@ -1,0 +1,118 @@
+/* reseting css */
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*-----------------------*/
+body{
+    padding: 30px;
+}
+.block{
+    margin-bottom: 30px;
+    height: 240px;
+    width: 480px;
+}
+.block p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.block p:last-child{
+text-transform: uppercase;
+}
+.block:hover{
+    background-color: rgb(60, 188, 115);
+    background-image: url("https://cdn.shopify.com/s/files/1/0206/9470/products/4211_-Bananas-Each-Square-_1200x1200px_medium.jpg?v=1650600685") ;
+}
+.link{
+color: red;
+}
+.link:visited{
+    color: green;
+}
+.link:hover{
+text-decoration: underline;
+color: blue;
+}
+.link:active{
+    color: yellow;
+}
+
+.textinput{
+border: 1px solid grey;
+height: 50px;
+padding: 0px 15px;
+font-size: 18px;
+width: 300px;
+}
+.textinput:focus{
+box-shadow: 0px 0px 10px rgba(74, 73, 73,0.9);
+}
+.textbutton{
+display: block;
+width: 300px;
+height: 50px;
+background-color: #5820e8;
+font-style: italic;
+margin-bottom: 30px;
+font-size: 18px;
+color: black;
+text-transform: uppercase;
+margin-top: 30px;
+font-weight: 500px;
+}
+.textbutton:hover{
+    background-color: rgb(43, 0, 43);
+    color: yellow;
+}
+.textbutton:active{
+    background-color: white;
+    color: yellow;
+}
+.list{
+
+}
+.list li{
+font-size: 18px;
+margin-bottom: 15px;
+}
+.list li:first-child{
+    color: green;
+}
+.list li:last-child{
+        color: purple;
+}
+.list li:nth-child(3){
+    color: rgb(255, 0, 0);
+}
+.list li:nth-child(odd){
+    color: rgb(255, 0, 0);
+}
